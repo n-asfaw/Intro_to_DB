@@ -4,7 +4,7 @@ USE alx_book_store;
 -- Query to get the full description of the Books table
 SELECT 
     COLUMN_NAME AS 'Column Name',
-    DATA_TYPE AS 'Data Type',
+    COLUMN_TYPE AS 'Column Type',
     IS_NULLABLE AS 'Is Nullable',
     COLUMN_DEFAULT AS 'Default Value',
     COLUMN_KEY AS 'Key',
