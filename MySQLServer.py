@@ -6,8 +6,8 @@ def create_database():
         # Connect to MySQL server
         connection = mysql.connector.connect(
             host='localhost',  # Update if your MySQL server is on a different host
-            user='your_username',  # Replace with your MySQL username
-            password='your_password'  # Replace with your MySQL password
+            user='root',  # Replace with your MySQL username
+            password=''  # Replace with your MySQL password
         )
 
         if connection.is_connected():
